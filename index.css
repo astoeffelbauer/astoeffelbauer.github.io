@@ -23,7 +23,7 @@ body {
     animation: rotate 0.8s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid rgb(190, 210, 220);
+    border:12px solid #3a4660;
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -51,12 +51,6 @@ header table {
 #navigation {
     width:80%;
 }
-img.rounded {
-    background-size: cover;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-}
 #magnify {
     width:100vw;
     height:100vh;
@@ -76,7 +70,7 @@ img.rounded {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(190, 210, 220);
+    color:#3a4660;
     cursor:pointer;
 }
 #img_here {
@@ -88,7 +82,7 @@ img.rounded {
 }
 #logo {
     font-size:24px;
-    color:rgb(190, 210, 220);
+    color:#3a4660;
 }
 #navigation {
     text-align:right;
@@ -133,7 +127,7 @@ img.rounded {
     text-align:left;
 }
 .social {
-    color:rgb(190, 210, 220);
+    color:#3a4660;
     font-size:23px;
     padding:12px 17px;
     border-radius:50%;
@@ -145,15 +139,15 @@ img.rounded {
 .social:hover {
     cursor: pointer;
     color:#fff;
-    background:rgb(190, 210, 220);
+    background:#3a4660;
     box-shadow:0px 10px 30px rgba(190, 210, 220,0.8);
 }
 .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
-    color:rgb(190, 210, 220);
+    color:#3a4660;
     background:#fff;
-    border:3px solid rgb(190, 210, 220);
+    border:3px solid #3a4660;
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -165,7 +159,7 @@ img.rounded {
     box-shadow:0px 10px 30px rgba(190, 210, 220, 0.8);
     cursor:pointer;
     color:#fff;
-    background:rgb(190, 210, 220);
+    background:#3a4660;
 }
 #rightImage {
     width:100%;
@@ -182,7 +176,7 @@ img.rounded {
 }
 #work h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(190, 210, 220);
+    border-bottom:4px solid #3a4660;
     width:8%;
 }
 .else {
@@ -193,7 +187,7 @@ img.rounded {
 }
 .else h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(190, 210, 220);
+    border-bottom:4px solid #3a4660;
     width:8%;
 }
 #photos {
@@ -220,7 +214,7 @@ img.rounded {
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(190, 210, 220);
+    border-bottom:4px solid #3a4660;
     width:8%;
 }
 #contact {
@@ -230,7 +224,7 @@ img.rounded {
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(190, 210, 220);
+    border-bottom:4px solid #3a4660;
     width:10%;
 }
 #contact table {
@@ -299,7 +293,7 @@ img.rounded {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(190, 210, 220);
+    color:#3a4660;
     text-decoration:none;
 }
 ::placeholder {
@@ -324,6 +318,14 @@ button:focus {
 p {
     font-size: 22px;
     font-weight: 22px;
+}
+img.rounded {
+    float:left;
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
 }
 .lefttext {
     clear:left;
@@ -399,7 +401,7 @@ img.smalllogo {
     width:60%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(190, 210, 220, 0.8);
-    background:rgb(190, 210, 220);
+    background:#3a4660;
     color:#fff;
     }
     .btn_one:hover {
@@ -454,5 +456,8 @@ img.smalllogo {
     }
     .unilogo {
         width: 33.33%;
+    }
+    .img.smalllogo {
+        height: 30px;
     }
 }
