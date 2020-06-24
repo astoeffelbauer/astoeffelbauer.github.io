@@ -51,6 +51,12 @@ header table {
 #navigation {
     width:80%;
 }
+img.rounded {
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
 #magnify {
     width:100vw;
     height:100vh;
@@ -169,11 +175,23 @@ header table {
     background-repeat:no-repeat;
 }
 #work {
+    clear: left;
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
 #work h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(190, 210, 220);
+    width:8%;
+}
+#else {
+    clear: left;
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#else h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(190, 210, 220);
     width:8%;
@@ -206,6 +224,7 @@ header table {
     width:8%;
 }
 #contact {
+    clear: left;
     width:92vw;
     padding:6vh 4vw;
 }
@@ -302,7 +321,20 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8);
 }
-
+.lefttext {
+    float:left;
+    width:50%;
+    font-size: 22px;
+    font-weight: normal;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.unilogo {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
+    box-sizing: border-box;
+}
 @media (max-width: 1000px){
     #photos {
     columns:1;
@@ -326,6 +358,7 @@ button:focus {
         text-align:center;
     }
     #about {
+        clear: left;
         width:92% !important;
         height:75vh;
         padding-top:20vh !important;
@@ -365,9 +398,12 @@ button:focus {
         width:90%;
     }
     #work h1 {
-        width:19%;
+        width:25%;
     }
     #bio h1 {
+        width:25%;
+    }
+    #else h1 {
         width:25%;
     }
     #contact h1 {
@@ -387,5 +423,11 @@ button:focus {
     }
     #navigation a {
         color:#000;
+    }
+    .lefttext {
+        width:100%;
+    }
+    .unilogo {
+        width: 33.33%;
     }
 }

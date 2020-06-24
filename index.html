@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <div id="loading">
         <div id="spinner"></div>
@@ -22,11 +23,13 @@
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo">Andreas Stöffelbauer</td>
+                <td id="logo">                 
+                    Andreas Stöffelbauer
+                </td>
                 <td id="navigation">
                     <a href="#bio">about</a>
                     <a href="#work">work</a>
-                    <a href="#work">else</a>
+                    <a href="#else">else</a>
                     <a href="cv/Andreas_Stoeffelbauer_CV_May2020.pdf" target="_blank">cv</a>
                     <a href="#contact">contact</a>
                 </td>
@@ -41,7 +44,7 @@
                 <table>
                     <tr>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.linkedin.com/in/andreas-stoeffelbauer/" class="social"><i class="fab fa-linkedin"></i></a></td>
-                        <!--<td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://twitter.com/AStoeffelbauer" class="social"><i class="fab fa-twitter"></i></a></td>-->
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://twitter.com/AStoeffelbauer" class="social"><i class="fab fa-twitter"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://towardsdatascience.com/@andreas.stoeffelbauer" class="social"><i class="fab fa-medium"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:3.0s;"><a href="https://github.com/astoeffelbauer" class="social"><i class="fab fa-github"></i></a></td>
                     </tr>
@@ -53,13 +56,33 @@
 
     <div id="bio">
         <h1>about</h1>
-        <p>I am an incoming data science graduate student at the London School of Economics and Political Science.
-            Before that, I graduated from the Vienna University of Economics and Business.
+        <p class="lefttext">
+            I am a graduate student at the London School of Economics and Political Science (2020/21).
+            Before that, I graduated from the Vienna University of Economics and Business (class of 2019). I also spent a semester at Queen's University (2018).
         </p>
-        <!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/1200px-LSE_Logo.svg.png" alt="Snow" style="width:100%"
-        <p>I have been teaching myself about data science.</p>
-        -->
+        <img class="unilogo" src="https://upload.wikimedia.org/wikipedia/commons/5/51/LSE_Logo.svg">
+        <img class="unilogo" src="https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_black.png">
+        <img class="unilogo" src="http://www.burghardt.co.at/fileadmin/projects/WURekorat_002.jpg">
     </div>
+
+    <div id="work">
+        <h1>work</h1>
+        <p class="lefttext">
+            I worked at Accenture Applied Intelligence from 2019 to 2020.
+        </p> 
+        <img class="unilogo" src="https://spotfolio.com/wp-content/uploads/2020/04/accenture.png">
+    </div>
+
+    <div id="else">
+        <h1>else</h1>
+        <p class="lefttext">
+            I write blog posts for Towards Data Science on Medium, a popular online publisher. 
+        </p> 
+        <img class="unilogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png">
+        <img class="unilogo" src="https://pbs.twimg.com/profile_images/1261315088478343169/PKP-HJDv_400x400.jpg">
+
+    </div>
+
 
     <!--
     <div id="work">
@@ -86,20 +109,15 @@
     -->
     <div id="contact">
         <h1>contact</h1>
+        <div style="float:left;">
+            <img src="images/me.jpg" class="rounded">
+        </div>  
             <table>
                 <tr>
                     <td>
                         <div id="inner_div">
                             <table id="inner_table">
                                 <tr>
-                                    <!--
-                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
-                                </tr>
-                                <tr>
-                                -->
                                     <td><i class="fas fa-map-marker-alt"></i>
                                     <div id="address">
                                         London, UK<br>
@@ -110,7 +128,7 @@
                                 <tr>
                                     <td>
                                         <a href="https://www.linkedin.com/in/andreas-stoeffelbauer/" class="social"><i class="fab fa-linkedin"></i></a>
-                                       <!-- <a href="https://twitter.com/AStoeffelbauer" class="social"><i class="fab fa-twitter"></i></a>-->
+                                        <a href="https://twitter.com/AStoeffelbauer" class="social"><i class="fab fa-twitter"></i></a>
                                         <a href="https://towardsdatascience.com/@andreas.stoeffelbauer" class="social"><i class="fab fa-medium"></i></a>
                                         <a href="https://github.com/astoeffelbauer" class="social"><i class="fab fa-github"></i></a>
                                     </td>
@@ -119,14 +137,6 @@
                         </div>
                     </td>
                     <td>
-                        <!--
-                        <form>
-                            <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
-                        </form>
-                        -->
                     </td>
                 </tr>
             </table>
