@@ -178,20 +178,20 @@ img.rounded {
     clear: left;
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
+    font-weight:normal;
 }
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(190, 210, 220);
     width:8%;
 }
-#else {
+.else {
     clear: left;
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
+    font-weight:normal;
 }
-#else h1 {
+.else h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(190, 210, 220);
     width:8%;
@@ -321,9 +321,23 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8);
 }
+p {
+    font-size: 22px;
+    font-weight: 22px;
+}
 .lefttext {
+    clear:left;
     float:left;
     width:50%;
+    font-size: 22px;
+    font-weight: normal;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.leftheader {
+    clear:left;
+    float:left;
+    width:auto;
     font-size: 22px;
     font-weight: normal;
     padding-right: 10px;
@@ -334,6 +348,14 @@ button:focus {
     width: 16.66%;
     padding: 5px;
     box-sizing: border-box;
+}
+img.smalllogo {
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 @media (max-width: 1000px){
     #photos {
@@ -403,7 +425,7 @@ button:focus {
     #bio h1 {
         width:25%;
     }
-    #else h1 {
+    .else h1 {
         width:25%;
     }
     #contact h1 {
@@ -425,6 +447,9 @@ button:focus {
         color:#000;
     }
     .lefttext {
+        width:100%;
+    }
+    .leftheader {
         width:100%;
     }
     .unilogo {
