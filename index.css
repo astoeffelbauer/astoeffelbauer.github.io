@@ -219,8 +219,12 @@ header table {
 }
 #contact {
     clear: left;
-    width:92vw;
+    width:100%;
+    height:auto;
     padding:6vh 4vw;
+    background:linear-gradient(180deg,rgba(255, 255, 2220, 0),rgba(190, 210, 220, 0.3)),url('') center center;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 #contact h1 {
     padding:5px 0px;
@@ -288,7 +292,7 @@ header table {
 }
 #footer {
     width:100%;
-    padding:10vh 0px;
+    padding:5vh 0px;
     text-align:center;
     font-weight:bold;
 }
